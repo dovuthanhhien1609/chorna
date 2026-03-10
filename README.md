@@ -86,14 +86,14 @@ go run ./cmd/chorna/
 
 | # | Milestone              | Status |
 |---|------------------------|--------|
-| 1 | DAG + State Machine    | ✅ Done |
-| 2 | Worker Pool            | ✅ Done |
-| 3 | Scheduler Abstraction  | ⬜      |
-| 4 | Engine Dispatch Loop   | ⬜      |
-| 5 | Retry + Backoff        | ⬜      |
-| 6 | Persistence (WAL)      | ⬜      |
-| 7 | CLI                    | ⬜      |
-| 8 | Benchmarks             | ⬜      |
+| 1 | DAG + State Machine    |  Done  |
+| 2 | Worker Pool            |  Done  |
+| 3 | Scheduler Abstraction  |        |
+| 4 | Engine Dispatch Loop   |        |
+| 5 | Retry + Backoff        |        |
+| 6 | Persistence (WAL)      |        |
+| 7 | CLI                    |        |
+| 8 | Benchmarks             |        |
 
 **72 tests, 0 data races.**
 

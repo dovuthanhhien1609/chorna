@@ -962,14 +962,14 @@ Expected result:
 
 | # | Milestone             | Status | Key Deliverables                                  |
 |---|-----------------------|--------|---------------------------------------------------|
-| 1 | DAG + State Machine   | ✅ Done | Task FSM, topological sort, workflow validation   |
-| 2 | Worker Pool           | ✅ Done | Bounded pool, backpressure, panic recovery        |
-| 3 | Scheduler Abstraction | ⬜ Next | FIFO, Priority, Round-Robin, pluggable interface  |
-| 4 | Engine Dispatch Loop  | ⬜      | Full end-to-end: submit workflow → results        |
-| 5 | Retry + Backoff       | ⬜      | Exponential backoff with jitter, goroutine-safe   |
-| 6 | Persistence           | ⬜      | BoltDB WAL, snapshot, crash recovery              |
-| 7 | CLI                   | ⬜      | `submit`, `inspect`, `cancel` commands            |
-| 8 | Benchmarks            | ⬜      | pprof, throughput/latency experiments             |
+| 1 | DAG + State Machine   |  Done  | Task FSM, topological sort, workflow validation   |
+| 2 | Worker Pool           |  Done  | Bounded pool, backpressure, panic recovery        |
+| 3 | Scheduler Abstraction |  Next  | FIFO, Priority, Round-Robin, pluggable interface  |
+| 4 | Engine Dispatch Loop  |        | Full end-to-end: submit workflow → results        |
+| 5 | Retry + Backoff       |        | Exponential backoff with jitter, goroutine-safe   |
+| 6 | Persistence           |        | BoltDB WAL, snapshot, crash recovery              |
+| 7 | CLI                   |        | `submit`, `inspect`, `cancel` commands            |
+| 8 | Benchmarks            |        | pprof, throughput/latency experiments             |
 
 ### Test Coverage per Milestone
 
